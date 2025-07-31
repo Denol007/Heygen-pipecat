@@ -1,0 +1,47 @@
+# Основные зависимости для голосового чата с HeyGen Avatar
+
+# Асинхронная обработка и HTTP клиенты
+aiohttp>=3.9.1
+httpx>=0.25.2
+requests>=2.32.0
+websockets>=15.0.1
+
+# Работа с аудио
+PyAudio>=0.2.14
+
+# Speech-to-Text (Deepgram)
+deepgram-sdk>=4.8.0
+
+# Large Language Models
+google-generativeai>=0.8.5
+openai>=1.0.0
+
+# LiveKit для видео записи
+livekit>=0.12.0
+
+# Утилиты
+python-dotenv>=1.1.1
+dataclasses-json>=0.6.7
+typing-extensions>=4.14.1
+pydantic>=2.10.6
+
+# Мониторинг производительности
+psutil>=7.0.0
+
+# Логирование и отладка
+tqdm>=4.67.1
+
+# Работа с JSON и данными
+aiofiles>=24.1.0
+
+# Совместимость
+aenum>=3.1.16
+deprecation>=2.1.0
+
+# Дополнительные зависимости для Google API
+google-auth>=2.40.3
+google-api-core>=2.25.1
+google-api-python-client>=2.177.0
+protobuf>=5.29.5
+
+# Примечание: FFmpeg должен быть установлен системно для обработки видео
